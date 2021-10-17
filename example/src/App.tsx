@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result.toString()}</Text>
+      <Text>Result: {result ? result.toString() : ''}</Text>
     </View>
   );
 }
