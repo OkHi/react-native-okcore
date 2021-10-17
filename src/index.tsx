@@ -20,3 +20,7 @@ const Okcore = NativeModules.Okcore
 export function multiply(a: number, b: number): Promise<number> {
   return Okcore.multiply(a, b);
 }
+
+export function isLocationServicesEnabled(): Promise<boolean> {
+  return Okcore.isLocationServicesEnabled();
+}

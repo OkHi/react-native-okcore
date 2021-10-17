@@ -1,18 +1,18 @@
 import * as React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-okcore';
+import { isLocationServicesEnabled } from 'react-native-okcore';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  const [result, setResult] = React.useState<boolean | undefined>();
 
   React.useEffect(() => {
-    multiply(3, 7).then(setResult);
+    isLocationServicesEnabled().then(setResult);
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Text>Result: {result.toString()}</Text>
     </View>
   );
 }
