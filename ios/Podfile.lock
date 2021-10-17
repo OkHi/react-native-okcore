@@ -1,0 +1,16 @@
+PODS:
+  - OkCore (1.3.7)
+
+DEPENDENCIES:
+  - OkCore (~> 1.3.7)
+
+SPEC REPOS:
+  trunk:
+    - OkCore
+
+SPEC CHECKSUMS:
+  OkCore: 9bea489a421d27f24f313123c8ba0bb5e3bba6f1
+
+PODFILE CHECKSUM: a1415cc5b000c264d53c0d7fb781794249ac190c
+
+COCOAPODS: 1.11.2

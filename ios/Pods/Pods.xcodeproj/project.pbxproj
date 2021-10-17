@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		C82673228F9BE00BB80C9D0BD5532325 /* OkCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 577905D9AB3062AA1169255877D7DD31 /* Build configuration list for PBXAggregateTarget "OkCore" */;
+			buildPhases = (
+				30E59F90CC55A205827965E5BF6C55F4 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = OkCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9B689C728661C3245F88094C45298589 /* Pods-Okcore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 752B30CC8122F3872B3A8F0FBD1EDAC4 /* Pods-Okcore-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFD50D2D0A44727E2BF066D1373F38AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82673228F9BE00BB80C9D0BD5532325;
+			remoteInfo = OkCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		077D8152537199C8D2E556D6695DCCCE /* Pods-Okcore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Okcore.debug.xcconfig"; sourceTree = "<group>"; };
+		179F152492E1C68CBC7074CF737B86C7 /* Pods-Okcore-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Okcore-acknowledgements.markdown"; sourceTree = "<group>"; };
+		356BDAC5C42414B36F9E5C2B5C71A061 /* OkCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OkCore.release.xcconfig; sourceTree = "<group>"; };
+		46FEB1A6E4162ABDE0F9514C281F18A5 /* Pods-Okcore */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Okcore"; path = "libPods-Okcore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		655395051E4FE18AD12CB7B9246A0455 /* OkCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OkCore.debug.xcconfig; sourceTree = "<group>"; };
+		74AAAFD1597F6C202BB9640ED430EDDA /* OkCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = OkCore.xcframework; sourceTree = "<group>"; };
+		752B30CC8122F3872B3A8F0FBD1EDAC4 /* Pods-Okcore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Okcore-dummy.m"; sourceTree = "<group>"; };
+		7B200E69A8A6E35F64B0E7C081CAD4EC /* Pods-Okcore-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Okcore-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E851DC1559974A95E180941E455B31C /* OkCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OkCore-xcframeworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A92E079C10D4305D7723202101D149D9 /* Pods-Okcore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Okcore.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60C77AE6CFE14E7447374464DD45EA25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11168D9F0458E78997679313948CF66B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74AAAFD1597F6C202BB9640ED430EDDA /* OkCore.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3145CA7CE0495799F1A573127910CE7B /* OkCore */ = {
+			isa = PBXGroup;
+			children = (
+				11168D9F0458E78997679313948CF66B /* Frameworks */,
+				508436FEEF37BA0D8834E21E86A4FBE4 /* Support Files */,
+			);
+			name = OkCore;
+			path = OkCore;
+			sourceTree = "<group>";
+		};
+		508436FEEF37BA0D8834E21E86A4FBE4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E851DC1559974A95E180941E455B31C /* OkCore-xcframeworks.sh */,
+				655395051E4FE18AD12CB7B9246A0455 /* OkCore.debug.xcconfig */,
+				356BDAC5C42414B36F9E5C2B5C71A061 /* OkCore.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OkCore";
+			sourceTree = "<group>";
+		};
+		7D388F3EFC7EED9084E9247AF0573307 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8DCB49DA88D73355DC0EBD8C4264352 /* Pods-Okcore */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		818E4F08D91B66A53A5CBCC71CFEC787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46FEB1A6E4162ABDE0F9514C281F18A5 /* Pods-Okcore */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895EDF6416476E049EC241776C4A6501 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3145CA7CE0495799F1A573127910CE7B /* OkCore */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8DCB49DA88D73355DC0EBD8C4264352 /* Pods-Okcore */ = {
+			isa = PBXGroup;
+			children = (
+				179F152492E1C68CBC7074CF737B86C7 /* Pods-Okcore-acknowledgements.markdown */,
+				7B200E69A8A6E35F64B0E7C081CAD4EC /* Pods-Okcore-acknowledgements.plist */,
+				752B30CC8122F3872B3A8F0FBD1EDAC4 /* Pods-Okcore-dummy.m */,
+				077D8152537199C8D2E556D6695DCCCE /* Pods-Okcore.debug.xcconfig */,
+				A92E079C10D4305D7723202101D149D9 /* Pods-Okcore.release.xcconfig */,
+			);
+			name = "Pods-Okcore";
+			path = "Target Support Files/Pods-Okcore";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				895EDF6416476E049EC241776C4A6501 /* Pods */,
+				818E4F08D91B66A53A5CBCC71CFEC787 /* Products */,
+				7D388F3EFC7EED9084E9247AF0573307 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5BD22623A027DF85CDE1954BCCAC15FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29643131B0A239AF867FA16603E31F9B /* Pods-Okcore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35B0B493E93C0FDA6F74C1E39DD1B6BE /* Build configuration list for PBXNativeTarget "Pods-Okcore" */;
+			buildPhases = (
+				5BD22623A027DF85CDE1954BCCAC15FB /* Headers */,
+				72DDC76DD85987CC5214DB8FB045C490 /* Sources */,
+				60C77AE6CFE14E7447374464DD45EA25 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				419F5C84C9A8EA68AB17CB8C6E32CAEA /* PBXTargetDependency */,
+			);
+			name = "Pods-Okcore";
+			productName = "Pods-Okcore";
+			productReference = 46FEB1A6E4162ABDE0F9514C281F18A5 /* Pods-Okcore */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 818E4F08D91B66A53A5CBCC71CFEC787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C82673228F9BE00BB80C9D0BD5532325 /* OkCore */,
+				29643131B0A239AF867FA16603E31F9B /* Pods-Okcore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30E59F90CC55A205827965E5BF6C55F4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/OkCore/OkCore-xcframeworks.sh",
+				"${PODS_ROOT}/OkCore/OkCore.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OkCore/OkCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OkCore/OkCore-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72DDC76DD85987CC5214DB8FB045C490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B689C728661C3245F88094C45298589 /* Pods-Okcore-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		419F5C84C9A8EA68AB17CB8C6E32CAEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OkCore;
+			target = C82673228F9BE00BB80C9D0BD5532325 /* OkCore */;
+			targetProxy = FFD50D2D0A44727E2BF066D1373F38AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		126C5AAED1288C41925A8A224FC54E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356BDAC5C42414B36F9E5C2B5C71A061 /* OkCore.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C37FBE4547602ABBBB6293106F85D51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 655395051E4FE18AD12CB7B9246A0455 /* OkCore.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		728FBBCE0E682C6FA2E6BB61F1A27347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077D8152537199C8D2E556D6695DCCCE /* Pods-Okcore.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D549B0C86B64CB95190249BC69EBFA72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92E079C10D4305D7723202101D149D9 /* Pods-Okcore.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35B0B493E93C0FDA6F74C1E39DD1B6BE /* Build configuration list for PBXNativeTarget "Pods-Okcore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728FBBCE0E682C6FA2E6BB61F1A27347 /* Debug */,
+				D549B0C86B64CB95190249BC69EBFA72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577905D9AB3062AA1169255877D7DD31 /* Build configuration list for PBXAggregateTarget "OkCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C37FBE4547602ABBBB6293106F85D51 /* Debug */,
+				126C5AAED1288C41925A8A224FC54E5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
