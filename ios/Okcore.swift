@@ -1,8 +1,7 @@
-import OkCore
+import Dollar
 
 @objc(Okcore)
 class Okcore: NSObject {
-    private let okhiLocationService = OkHiLocationService()
     @objc static func requiresMainQueueSetup() -> Bool {
         return false
     }
@@ -11,6 +10,6 @@ class Okcore: NSObject {
         resolve(a*b)
     }
     @objc func isLocationServicesEnabled(_ resolve:RCTPromiseResolveBlock, reject:RCTPromiseRejectBlock) {
-        resolve(okhiLocationService.isLocationServicesAvailable())
+        resolve(Dollar.contains([1, 2, 3, 1, 2, 3], value: 2))
     }
 }
